@@ -51,7 +51,7 @@ nav {
     float: left;
     width: 600px;
     height: 100%;
-    background-color:violet;
+    /* background-color:violet; */
 }
 
 #links {
@@ -119,4 +119,78 @@ font-size: 14px;
 
 a {
     text-decoration: none;
+#tabMenu {
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+
+
+#tabMenu label {
+    display: inline-block;
+    margin: 0 0;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+    border: 1px solid transparent;
+}
+
+#tabMenu label:hover {
+    cursor: pointer ;
+    color: #222;
+}
+
+#tabMenu input:checked + label{
+    /* ! */
+    color: #b00;
+    background-color: #eee;
+    border: 1px solid #ddd;
+
+}
+
+#tabMenu input[type="radio"]{
+    display: none;
+    border: 1px solid #ddd;
+    background-color: #eee;
+}
+
+
+input[type="radio" i] { 
+
+background-color: initial;
+cursor: default;
+appearance: auto;
+
+}
+
+#notice ul {
+    list-style: disc; 
+    /* 까만테두리 */
+    margin-left: 30px;
+}
+
+#notice ul li {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+#gallery ul li {
+    display: inline; 
+    /* 이미지가로로배치 */
+}
+
+#tab1:checked ~ #notice, 
+#tab2:checked ~ #gallery {
+    /* 형제 선택자 */
+    display: block;
 }
