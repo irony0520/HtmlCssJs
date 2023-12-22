@@ -140,11 +140,58 @@ padding: 10px 10px 10px 10px;
     /* background-color:violet; */
 }
 
-#links {
-    width: 600px;
-    height: 100%;
-    background-color: skyblue;
-    float: right;
+#quick-icon1 {
+    background-image: url(../images/icon-1.jpg)
+}
+
+#quick-icon2 {
+    background-image: url(../images/icon-2.jpg)
+}
+
+#quick-icon3 {
+    background-image: url(../images/icon-3.jpg)
+}
+#links ul li a span {
+
+display: block;
+margin: 0 auto;
+border-radius: 100%;
+width: 150px;
+height: 150px;
+border: 1px solid #ddd;
+line-height: 150px;
+
+}
+
+#links ul {
+    padding: 0;
+    margin-top: 50px;
+}
+
+
+#links ul li {
+
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#links ul li a p {
+margin-top: 15px;
+font-weight: 600;
+color: #666;
+font-size: 14px;
+
+
+}
+
+#links ul { 
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 footer { 
@@ -198,9 +245,6 @@ footer {
     background-color: #eee;
 }
 
-a {
-    text-decoration: none;
-}
 #tabMenu {
     float: left;
     width: 600px;
