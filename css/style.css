@@ -1,0 +1,68 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#container { 
+
+margin: 0 auto;
+width: 1200px;
+}
+
+ header {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+ }   
+
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: indigo;
+}
+
+nav { 
+    width: 900px;
+    height: 100px;
+    float: right;
+    background-color: green;
+}
+
+#slideShow {
+
+    clear: both;
+    overflow: hidden;
+
+    height: 300px;
+    width: 100%;
+    background-color: orange;
+}
+
+#content {
+
+    width: 100%;
+    height: 300px;
+}
+
+#tabMenu {
+    float: left;
+    width: 600px;
+    height: 100%;
+    background-color:violet;
+}
+
+#links {
+    width: 600px;
+    height: 100%;
+    background-color: skyblue;
+    float: right;
+}
+
+footer { 
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
