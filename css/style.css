@@ -66,3 +66,41 @@ footer {
     height: 100px;
     background-color: gray;
 }
+
+#slideShow {
+    position: relative;
+}
+
+#slides {
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 800;
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+button:hover {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.6;
+}
